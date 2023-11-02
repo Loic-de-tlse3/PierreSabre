@@ -12,6 +12,10 @@ public class Humain {
 		this.argent = argent;
 	}
 	
+	public String getNom() {
+		return nom;
+	}
+	
 	public void direBonjour() {
 		parler("Bonjour je m'appelle " + nom + " et j'aime boire du " + boissonPreferee);
 	}
