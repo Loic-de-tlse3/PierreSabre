@@ -42,7 +42,7 @@ public class Humain {
 		argent -= perte;
 	}
 	
-	protected void parler(String texte) {
+	public void parler(String texte) {
 		System.out.println("(" + nom + ")" + " - " + texte);
 	}
 }
