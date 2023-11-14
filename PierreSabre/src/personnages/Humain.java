@@ -3,13 +3,17 @@ package personnages;
 public class Humain {
 	protected String nom;
 	protected String boissonPreferee;
-	protected int argent;
+	private int argent;
 	
 	public Humain(String nom, String boissonPreferee, int argent) {
 		super();
 		this.nom = nom;
 		this.boissonPreferee = boissonPreferee;
 		this.argent = argent;
+	}
+	
+	public int getArgent() {
+		return argent;
 	}
 	
 	public String getNom() {
